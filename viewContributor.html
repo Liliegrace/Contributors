@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>View Contributor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div>
+  <h2> View Contributor </h2>
+
+  <button class="connectBtn" id="connectBtn" onclick="connectWallet()">
+    Connect
+  </button>
+
+  <button class="disconnectBtn" id="disconnectBtn">
+    Disconnect
+  </button>
+
+  <input type="text" id="contributorId" placeholder="Contributor ID">
+  
+  <button class="ContributeBtn" onclick="viewContributor()">
+    View
+  </button>
+
+  <p>
+    Contributor: <span id="contributorIdResult"></span>
+  </p>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js" type="application/javascript"></script>
+  <script src="script.js"> </script>
+
+ </div> 
+</body>
+
+</html>

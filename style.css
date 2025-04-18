@@ -1,0 +1,62 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #cfcbcb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.disconnectBtn {
+  cursor: pointer;
+  width: 90px;
+  height: 30px;
+  background: #3366ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+.connectBtn {
+  cursor: pointer;
+  width: 90px;
+  height: 30px;
+  background: #3366ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  margin-left: 95px;
+}
+  
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 250px;
+}
+
+.ContributeBtn {
+  cursor: pointer;
+  width: 274px;
+  height: 30px;
+  background: #3366ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+p {
+  font-size: 10px;
+  font-weight: bold;
+  justify-self: start;
+}
+  
+button:hover {
+  background-color: #357ABD;
+}
+  

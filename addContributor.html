@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Contributor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div>
+  <h2> Add Contributor </h2>
+
+  <button class="connectBtn" id="connectBtn">
+    Connect
+  </button>
+
+  <button class="disconnectBtn" id="disconnectBtn">
+    Disconnect
+  </button>
+
+  <input type="text" id="contributorId" placeholder="Contributor ID">
+
+  <input type="text" id="name" placeholder="Name">
+
+  <button class="ContributeBtn" onclick="addContributor()">
+    Add
+  </button>
+
+  <p> 
+    TX ID: <span id="txHash"></span>
+  </p>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js" type="application/javascript"></script>
+  <script src="script.js"></script>
+  </div>
+</body>
+
+</html>
